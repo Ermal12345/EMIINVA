@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EMIINVA KANCELARI</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff4f4;
+      color: #222;
+    }
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #ff3b3b;
+      color: white;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #ff5c5c;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #222;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #ffeaea, #ffd6d6);
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #cc0000;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #444;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 60px 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product {
+      background-color: #fff;
+      border: 2px solid #ff9f9f;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(255, 107, 107, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(255, 51, 51, 0.3);
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border-radius: 8px;
+    }
+    .product h3 {
+      color: #cc0000;
+      margin-bottom: 10px;
+    }
+    .product p {
+      color: #555;
+      margin-bottom: 15px;
+    }
+    .product button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ff3b3b;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .product button:hover {
+      background-color: #e60000;
+    }
+    footer {
+      background-color: #ff5c5c;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EMIINVA KANCELARI</h1>
+  </header>
+  <nav>
+    <a href="#">Ballina</a>
+    <a href="#produkte">Produktet</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>  <section class="hero">
+    <h2>Dyqani juaj i gjithçkaje</h2>
+    <p>Mjete shkollore, çanta, kozmetikë, çorape, shapka dhe shumë më tepër – në një vend të vetëm!</p>
+  </section>  <section id="produkte" class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Çantë+Shkolle" alt="Çantë Shkolle" />
+      <h3>Çantë Shkolle e Kuqe</h3>
+      <p>1,200 lekë</p>
+      <button>Shto në shportë</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Laps+Faber" alt="Laps Faber" />
+      <h3>Laps Faber-Castell</h3>
+      <p>20 lekë</p>
+      <button>Shto në shportë</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Çorape+Fëmijësh" alt="Çorape" />
+      <h3>Çorape pambuku për fëmijë</h3>
+      <p>100 lekë</p>
+      <button>Shto në shportë</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Shapka+Plazhi" alt="Shapka" />
+      <h3>Shapka plazhi</h3>
+      <p>400 lekë</p>
+      <button>Shto në shportë</button>
+    </div>
+  </section>  <footer id="kontakt">
+    <p>Na kontaktoni në: info@emiinva.al | +355 XX XXX XXXX</p>
+    <p>&copy; 2025 EMIINVA KANCELARI</p>
+  </footer>
+</body>
+</html>
